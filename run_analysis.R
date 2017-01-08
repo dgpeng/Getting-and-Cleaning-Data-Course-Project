@@ -1,3 +1,4 @@
+##Note: The zip file was unzipped and renamed as "UCI" folder!
 ## Create one R script called run_analysis.R that has to meet the review criteria as the following:
 ## 1. The submitted data set is tidy.
 ## 2, The Github repo contains the required scripts.
@@ -12,13 +13,15 @@
 ##3, Uses descriptive activity names to name the activities in the data set
 ##4, Appropriately labels the data set with descriptive variable names.
 ##5, From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
-# install packages when it is necessary 
-install.packages("data.table")
-install.packages("reshape2")
 
-# call the packages
-require("data.table")
-require("reshape2")
+## if the packages of "data.table" and "reshape2" have not been installed before, please delete one "#" from line 18 to line 24, individually.  
+## install packages when it is necessary 
+#install.packages("data.table")
+#install.packages("reshape2")
+
+## call the packages
+#require("data.table")
+#require("reshape2")
 
 
 # Load: activity labels
